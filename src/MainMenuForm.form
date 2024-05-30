@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainMenuForm">
+  <grid id="27dc6" binding="MainMenuPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-13027984"/>
+      <minimumSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="4c811">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="b3bc2" binding="TetrisGamePanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="90394" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="HoloLens MDL2 Assets" size="48" style="1"/>
+              <text value="Hockey"/>
+            </properties>
+          </component>
+          <component id="24554" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="puck.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ea6d2" class="javax.swing.JButton" binding="CreateHubButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10265373"/>
+              <font name="HoloLens MDL2 Assets"/>
+              <foreground color="-7359515"/>
+              <text value="Создать лобби"/>
+            </properties>
+          </component>
+          <component id="6812d" class="javax.swing.JButton" binding="ConnectHubButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10265373"/>
+              <enabled value="true"/>
+              <font name="HoloLens MDL2 Assets"/>
+              <foreground color="-7359515"/>
+              <text value="Присоедениться к лобби"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="51651">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="cd173">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="b8e62">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="93ec7" binding="SnakeGamePanel" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="36"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="75668" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font/>
+              <icon value="tetris.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f838a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="HoloLens MDL2 Assets" size="72" style="1"/>
+              <text value="Tetris"/>
+            </properties>
+          </component>
+          <component id="eea8" class="javax.swing.JButton" binding="updateButton">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10265373"/>
+              <font name="HoloLens MDL2 Assets" size="18"/>
+              <foreground color="-7359515"/>
+              <text value="Обновить рейтинг"/>
+            </properties>
+          </component>
+          <component id="8db6b" class="javax.swing.JLabel" binding="scoreUserMax">
+            <constraints>
+              <grid row="5" column="5" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="48"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="cf187" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="5" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="Максимальное кол-во очков игрока"/>
+            </properties>
+          </component>
+          <component id="f3082" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="4" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="ТОП 5 игроков"/>
+            </properties>
+          </component>
+          <component id="45887" class="javax.swing.JButton" binding="buttonStartGame">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10265373"/>
+              <font name="HoloLens MDL2 Assets" size="18"/>
+              <foreground color="-7359515"/>
+              <text value="Play"/>
+            </properties>
+          </component>
+          <component id="9def5" class="javax.swing.JTable" binding="scoreTableMaxUsers">
+            <constraints>
+              <grid row="5" column="1" row-span="2" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10265373"/>
+              <font name="HoloLens MDL2 Assets" size="18" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
